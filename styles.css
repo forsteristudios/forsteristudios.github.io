@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    color: #ece3d4;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header .logo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+body {
+    background-color: #1a0d1f;
+}
+
+section {
+    color: #ece3d4;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+a {
+    color: #fcc312;
+}
+
+.game-title {
+    color: #fcc312;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #ece3d4;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: box-shadow 0.2s ease;
+    color: #ece3d4;
+    background-color: #33193d;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    padding: 10px;
+    margin: 0;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px #ece3d4;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
