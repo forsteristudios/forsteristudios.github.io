@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #33193d;
 }
 
 header {
@@ -13,6 +14,7 @@ header {
     padding: 20px;
     text-align: center;
     width: 100%;
+    background-color: #1a0d1f;
 }
 
 header .logo {
@@ -30,10 +32,6 @@ main {
     width: 100%;
 }
 
-body {
-    background-color: #1a0d1f;
-}
-
 section {
     color: #ece3d4;
     font-size: 18px;
@@ -47,13 +45,22 @@ a {
     color: #fcc312;
 }
 
+footer {
+    background-color: #1a0d1f;
+    color: #ece3d4;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+
 .game-title {
     color: #fcc312;
 }
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
     justify-items: center;
     gap: 20px;
@@ -67,7 +74,7 @@ a {
     text-align: center;
     transition: box-shadow 0.2s ease;
     color: #ece3d4;
-    background-color: #33193d;
+    background-color: #1a0d1f;
     font-size: 18px;
     text-decoration: none;
 }
@@ -87,7 +94,7 @@ a {
 }
 
 .center {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
