@@ -48,10 +48,15 @@ a {
 footer {
     background-color: #1a0d1f;
     color: #ece3d4;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
     font-size: 18px;
     width: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .game-title {
